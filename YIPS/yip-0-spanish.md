@@ -68,9 +68,9 @@ Cada YIP debe de estar compuesta por las siguientes partes:
 Las YIPs deben ser escritas usando el formato [markdown].
 Las imágenes deben incluirse en el subdirectorio de la carpeta `assets` para cada YIP de la siguiente forma: `assets/yip-X` (para la YIP **X**). Para vincular una imagen en la YIP, usa vínculos relativos como `../assets/yip-X/image.png`.
 
-## YIP Header Preamble
+## Preámbulo del header YIP
 
-Cada YIP debe empezar con un [RFC 822](https://www.ietf.org/rfc/rfc822.txt) style header preamble, precedido y seguido por tres guiones (`---`). Este header también se conoce como ["front matter" by Jekyll](https://jekyllrb.com/docs/front-matter/). Los headers deben aparecer en el siguiente orden. Headers marcados con "*" son opcionales y se describen más abajo. Todos los demás headers son necesarios.
+Cada YIP debe empezar con un estilo de preámbulo del header [RFC 822](https://www.ietf.org/rfc/rfc822.txt), precedido y seguido por tres guiones (`---`). Este header también se conoce como ["front matter" by Jekyll](https://jekyllrb.com/docs/front-matter/). Los headers deben aparecer en el siguiente orden. Headers marcados con "*" son opcionales y se describen más abajo. Todos los demás headers son necesarios.
 
 ` yip:` <YIP number> (Esto es determinado por el editor de la YIP)
 
@@ -93,7 +93,7 @@ Cada YIP debe empezar con un [RFC 822](https://www.ietf.org/rfc/rfc822.txt) styl
 Headers que permiten listas deben separar los elementos con comas.
 Headers que requieran fechas siempre se introducirán en el formato ISO 8601 (yyyy-mm-dd).
 
-#### Header del `autor` 
+#### Header `autor` 
 
 El header del `autor` opcionalmente enumera los nombres, direcciones de correo electrónico o nombres de usuario de los autores / propietarios de la YIP. Aquellos que prefieren el anonimato pueden usar solo un nombre de usuario, o un nombre y un nombre de usuario. El formato del valor del header del autor debe ser:
 
