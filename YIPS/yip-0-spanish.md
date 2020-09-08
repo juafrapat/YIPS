@@ -1,64 +1,66 @@
 ---
 YIP: 0
-Título: YIP Purpose and Guidelines
-Estatus: Implemented
-Autor: yEarn Community
+Título: Propósito y guías para una YIP
+Estatus: Implementada 
+Autor: La comunidad de yEarn
 Discuciones: https://gov.yearn.finance/
 Fecha de creación: 2020-07-22
 Fecha de actualización: 2020-09-03
 ---
 
-## What is an YIP?
+## ¿Qué es una YIP?
 
-YIP stands for yEarn Improvement Proposal, it has been adapted from the SIP (Synthetix Improvement Proposal). The purpose of this process is to ensure changes to yEarn are transparent and well governed. An YIP is a design document providing information to the yEarn community about a proposed change to the system. The author is responsible for building consensus within the community and documenting dissenting opinions.
+Una YIP es una propuesta de mejora de yEarn (yEarn Improvement Proposal en inglés) que ha sido adaptada de las SIP utilizadas por Synthetix. La finalidad de este proceso es asegurar que los cambios en yEarn son transparentes y democráticos. Una YIP es un documento que provee información a la comunidad de yEarn a cerca de un cambio propuesto que afecta al sistema. El autor de esta es el responsable de buscar el concenso y la aprobación de la comunidad, además de documentar los pros y contras presentados por los distintos miembros de la comunidad acerca del cambio propuesto.
 
-## YIP Rationale
+## Fundamentación de las YIPs
 
-We intend YIPs to be the primary mechanisms for proposing new features, collecting community input on an issue, and for documenting the design decisions for changes to yEarn. Because they are maintained as text files in a versioned repository, their revision history is the historical record of the feature proposal.
+Nosotros pretendemos que las YIPs sean el principal mecanismo mediante el cual se proponen mejoras, se analiza la posición de la comunidad frente a un problema y se documentan posibles cambios en yEarn. Como estas son almacenadas en archivos de texto en un repositorio, esta queda guardada para su revisión en un futuro.
 
-It is highly recommended that a single YIP contain a single key proposal or new idea. The more focused the YIP, the more successful it is likely to be.
+Se recomienda encarecidamente que cada YIP contenga una propuesta clave o una idea nueva. Cuanto más concisa sea la YIP, más probabilidades tendrá de tener éxito.
 
-An YIP must meet certain minimum criteria. It must be a clear and complete description of the proposed enhancement. The enhancement must represent a net improvement.
+Una YIP debe de cumplir ciertos criterios para ser aceptada. Debe de ser clara y debe tener una descripción completa y detallada de la propuesta que se quiere hacer. La propuesta debe de representar un cambio significativo en un aspecto del sistema.
 
-## YIP Work Flow
+## Esquema de trabajo de una YIP
 
-Parties involved in the process are the *author*, the [*YIP editors*](#yip-editors), and the yEarn community.
+Las partes involucradas en el proceso son el *autor*, los [*editores*](#yip-editors) y la comunidad de yEarn.
 
-:warning: Before you begin, vet your idea, this will save you time. Ask the yEarn community first if an idea is original to avoid wasting time on something that will be rejected based on prior research (searching the Internet does not always do the trick). It also helps to make sure the idea is applicable to the entire community and not just the author. Just because an idea sounds good to the author does not mean it will have the intend effect. The appropriate public forum to gauge interest around your YIP is [the unofficial yEarn Discord] or [the unofficial yEarn Telegram].
+:warning: Antes de empezar, evalúa detenidamente tu idea. Pregúntale a la comunidad de yEarn primero si la idea es original para evitar perder el tiempo en una propuesta que será rechazada en base a una investigación previa (buscar en Internet no siempre va a funcionar). Además, también es de cierta utilidad asegurarte de que la idea es aplicable a la comunidad entera y no solo al autor de ella. Sólo por el hecho de que una idea le parezca buena a su autor no significa que vaya a tener el efecto previsto por él. Los foros públicos en los que puedes captar el interés de los demás hacia tu YIP son [el Discord de yEarn no oficial] o [el canal de Telegram de yEarn no oficial].
 
-Your role as the champion is to write the YIP using the style and format described below, shepherd the discussions in the appropriate forums, and build community consensus around the idea. Following is the process that a successful YIP will move along:
+Tu papel como autor es escribir la YIP usando el estilo y el formato descrito a continuación, guiar las discusiones en los foros apropiados y construir concenso alrededor de la idea. Este es el camino que sigue una YIP exitosa: 
 
 ```
-Proposed -> Approved -> Implemented
+Propuesta -> Aprobada -> Implementada
   ^                     |
-  +----> Rejected       +----> Moribund
+  +----> Rechazada      +----> Moribunda 
   |
-  +----> Withdrawn
+  +----> Retirada
   v
-Deferred
+Diferida
 ```
+Cada cambio de estado es pedido por el autor de la YIP y revisado por los editores. Haz un pull request para actualizar el estado de la YIP. Por favor, incluye también una dirección donde la gente debería ir para continuar la discusión a cerca de tu YIP. Los editores procesarán el cambio de estado siguiendo las siguientes directrices:
 
-Each status change is requested by the YIP author and reviewed by the YIP editors. Use a pull request to update the status. Please include a link to where people should continue discussing your YIP. The YIP editors will process these requests as per the conditions below.
+* **Work in progress (WIP)** -- Cuando un autor ha preguntado la comunidad de yEarn si su idea tiene alguna posibilidad de salir adelante, él redactará un borrador de YIP como un [pull request]. Considera incluir también una implementación si servirá de ayuda a la hora de que otras personas estudien la YIP.
 
-* **Work in progress (WIP)** -- Once the champion has asked the yEarn community whether an idea has any chance of support, they will write a draft YIP as a [pull request]. Consider including an implementation if this will aid people in studying the YIP.
-* **Proposed** If agreeable, YIP editor will assign the YIP a number (generally the issue or PR number related to the YIP) and merge your pull request. The YIP editor will not unreasonably deny an YIP. Proposed YIPs will be discussed on governance calls and in Discord. If there is a reasonable level of consensus around the change on the governance call the change will be moved to approved. If the change is contentious a vote of token holders may be held to resolve the issue or approval may be delayed until consensus is reached.
-* **Approved** -- This YIP has passed community governance and is now being prioritised for development.
-* **Implemented** -- This YIP has been implemented and deployed to mainnet.
-* **Rejected** -- This YIP has failed to reach community consensus.
-* **Withdrawn** -- This YIP has has been withdrawn by the author(s).
-* **Deferred** -- This YIP is pending another YIP/some other change that should be bundled with it together.
-* **Moribund** -- This YIP has been implemented and is now obsolete and requires no explicit replacement.
+* **Propuesta** Si está de acuerdo, un editor asignará a la YIP un número y fusionará la pull request. El editor no denegará ninguna YIP sin justificación. Las YIPs propuestas se discutirán en los canales apropiados. Si hay un nivel razonable de consenso en torno al cambio en la convocatoria de gobernanza, el cambio pasará a estar aprobado. Si el cambio es controvertido, se puede realizar una votación entre los titulares de tokens para resolver el problema o se puede retrasar la aprobación hasta que se alcance el consenso.
 
-## What belongs in a successful YIP?
+* **Aprobada** -- Esta YIP ha sido acogida positivamente por la comunidad y ahora se prioriza su desarrollo.
+* **Implementada** -- Esta YIP ha sido implementada y desplegada en mainnet.
+* **Rechazada** -- Esta YIP ha fracasado en su intento de conseguir el conceso de la comunidad.
+* **Retirada** --  Esta YIP ha sido retirada por su autor o autores.
+* **Diferida** -- Esta YIP está pendiente de otra YIP o otro cambio con el que se debería incluir en conjunto.
+* **Moribunda** -- Esta YIP ha sido implementada en el pasado pero ahora ha quedado obsoleta y no requiere un reemplazo explícito.
 
-Each YIP should have the following parts:
+## ¿Qué forma una YIP exitosa?
 
-- Preamble - RFC 822 style headers containing metadata about the YIP, including the YIP number, a short descriptive title (limited to a maximum of 44 characters), and the author details.
-- Simple Summary - “If you can’t explain it simply, you don’t understand it well enough.” Provide a simplified and layman-accessible explanation of the YIP.
-- Abstract - a short (~200 word) description of the technical issue being addressed.
-- Motivation (*optional) - The motivation is critical for YIPs that want to change yEarn. It should clearly explain why the existing specification is inadequate to address the problem that the YIP solves. YIP submissions without sufficient motivation may be rejected outright.
-- Specification - The technical specification should describe the syntax and semantics of any new feature.
-- Rationale - The rationale fleshes out the specification by describing what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work, e.g. how the feature is supported in other languages. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.
+Cada YIP debe de estar compuesta por las siguientes partes:
+
+- Preámbulo - RFC 822 style headers que contienen metadatos a cerca de la YIP, incluído el número de la YIP, un pequeño título descriptivo (limitado a 44 caracteres) y los datos del autor.
+- Explicación corta - “Si no puedes explicarlo con palabras sencillas, entonces es que no lo entiendes lo suficiente.” Proporcione una explicación simplificada y accesible para la gente del YIP.
+- Resumen - Una descripción corta (~200 palabras) del problema técnico que se está abordando.
+- Motivación (*opcional) - La motivación es una parte crítica para las YIPs que desean cambiar yEarn. Aquí se debe explicar claramente por qué la especificación existente es inadecuada para resolver el problema que la YIP resuelve. Las YIPs presentadas sin suficiente motivación puede ser rechazadas por completo.
+- Especificación - La especificación técnica debe describir la sintaxis y semántica de cualquier característica nueva.
+- Razonamiento fundamental - El fundamento da cuerpo a la especificación al describir qué motivó el diseño y por qué se tomaron decisiones de diseño particulares. Debe describir los diseños alternativos que se consideraron y el trabajo relacionado. El razonamiento también debe proporcionar evidencia de consenso dentro de la comunidad y en él se debe discutir las objeciones o preocupaciones importantes que surjan durante la discusión.
+
 - Test Cases - Test cases may be added during the implementation phase but are required before implementation.
 - Copyright Waiver - All YIPs must be in the public domain. See the bottom of this YIP for an example copyright waiver.
 
