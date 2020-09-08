@@ -1,11 +1,11 @@
 ---
 YIP: 0
-title: YIP Purpose and Guidelines
-status: Implemented
-author: yEarn Community
-discussions-to: https://gov.yearn.finance/
-created: 2020-07-22
-updated: 2020-09-03
+Título: YIP Purpose and Guidelines
+Estatus: Implemented
+Autor: yEarn Community
+Discuciones: https://gov.yearn.finance/
+Fecha de creación: 2020-07-22
+Fecha de actualización: 2020-09-03
 ---
 
 ## What is an YIP?
