@@ -1,5 +1,5 @@
 ---
-yip: 0
+YIP: 0
 title: YIP Purpose and Guidelines
 status: Implemented
 author: yEarn Community
