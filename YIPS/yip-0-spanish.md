@@ -60,74 +60,74 @@ Cada YIP debe de estar compuesta por las siguientes partes:
 - Motivación (*opcional) - La motivación es una parte crítica para las YIPs que desean cambiar yEarn. Aquí se debe explicar claramente por qué la especificación existente es inadecuada para resolver el problema que la YIP resuelve. Las YIPs presentadas sin suficiente motivación puede ser rechazadas por completo.
 - Especificación - La especificación técnica debe describir la sintaxis y semántica de cualquier característica nueva.
 - Razonamiento fundamental - El fundamento da cuerpo a la especificación al describir qué motivó el diseño y por qué se tomaron decisiones de diseño particulares. Debe describir los diseños alternativos que se consideraron y el trabajo relacionado. El razonamiento también debe proporcionar evidencia de consenso dentro de la comunidad y en él se debe discutir las objeciones o preocupaciones importantes que surjan durante la discusión.
+- Casos de prueba - se pueden agregar casos de prueba durante la fase de implementación, pero son necesarios antes de la implementación.
+- Exención de derechos de autor: todos los YIP deben ser de dominio público. Consulte la parte inferior de esta YIP para ver un ejemplo de exención de derechos de autor.
 
-- Test Cases - Test cases may be added during the implementation phase but are required before implementation.
-- Copyright Waiver - All YIPs must be in the public domain. See the bottom of this YIP for an example copyright waiver.
+## Formatos de YIP y plantillas
 
-## YIP Formats and Templates
-
-YIPs should be written in [markdown] format.
-Image files should be included in a subdirectory of the `assets` folder for that YIP as follows: `assets/yip-X` (for yip **X**). When linking to an image in the YIP, use relative links such as `../assets/yip-X/image.png`.
+Las YIPs deben ser escritas usando el formato [markdown].
+Las imágenes deben incluirse en el subdirectorio de la carpeta `assets` para cada YIP de la siguiente forma: `assets/yip-X` (para la YIP **X**). Para vincular una imagen en la YIP, usa vínculos relativos como `../assets/yip-X/image.png`.
 
 ## YIP Header Preamble
 
-Each YIP must begin with an [RFC 822](https://www.ietf.org/rfc/rfc822.txt) style header preamble, preceded and followed by three hyphens (`---`). This header is also termed ["front matter" by Jekyll](https://jekyllrb.com/docs/front-matter/). The headers must appear in the following order. Headers marked with "*" are optional and are described below. All other headers are required.
+Cada YIP debe empezar con un [RFC 822](https://www.ietf.org/rfc/rfc822.txt) style header preamble, precedido y seguido por tres guiones (`---`). Este header también se conoce como ["front matter" by Jekyll](https://jekyllrb.com/docs/front-matter/). Los headers deben aparecer en el siguiente orden. Headers marcados con "*" son opcionales y se describen más abajo. Todos los demás headers son necesarios.
 
-` yip:` <YIP number> (this is determined by the YIP editor)
+` yip:` <YIP number> (Esto es determinado por el editor de la YIP)
 
-` title:` <YIP title>
+` Título:` <YIP title>
 
-` author:` <a list of the author's or authors' name(s) and/or username(s), or name(s) and email(s). Details are below.>
+` Autor:` <Una lista con el nombre(s) del autor(es) o su(s) nombre(s) de usuario(s) o nombre(s) y email(s). Los detalles están más abajo.>
 
-` * discussions-to:` \<a url pointing to the official discussion thread at gov.yearn.finance\>
+` * Discusiones en:` \<Una url que dirija al hilo oficial en gov.yearn.finance\>
 
-` status:` < WIP | PROPOSED | APPROVED | IMPLEMENTED >
+` Estado:` < WIP | PROPUESTA | APROBADA | IMPLEMENTADA >
 
-` created:` <date created on>
+` Creada:` <Fecha de creación>
 
-` * updated:` <comma separated list of dates>
+` * Actualizada:` <Lista de fechas separadas por comas>
 
-` * requires:` <YIP number(s)>
+` * Requiere:` <Numero(s) de YIP>
 
-` * resolution:` \<a url pointing to the resolution of this YIP\>
+` * Resolución:` \<Una url que dirija a la resolución de esta YIP\>
 
-Headers that permit lists must separate elements with commas.
+Headers que permiten listas deben separar los elementos con comas.
+Headers que requieran fechas siempre se introducirán en el formato ISO 8601 (yyyy-mm-dd).
 
-Headers requiring dates will always do so in the format of ISO 8601 (yyyy-mm-dd).
+#### Header del `autor` 
 
-#### `author` header
+El header del `autor` opcionalmente enumera los nombres, direcciones de correo electrónico o nombres de usuario de los autores / propietarios de la YIP. Aquellos que prefieren el anonimato pueden usar solo un nombre de usuario, o un nombre y un nombre de usuario. El formato del valor del header del autor debe ser:
 
-The `author` header optionally lists the names, email addresses or usernames of the authors/owners of the YIP. Those who prefer anonymity may use a username only, or a first name and a username. The format of the author header value must be:
 
-> Random J. User &lt;address@dom.ain&gt;
+> Random J. User &lt;correo@dominio.ain&gt;
 
-or
+o
 
-> Random J. User (@username)
+> Random J. User (@nombredeusuario)
 
-if the email address or GitHub username is included, and
+si el correo electrónico o el nombre de usuario de GitHub están incluídos, y
 
 > Random J. User
 
-if the email address is not given.
+si la dirección de correo no se especifica.
 
-#### `discussions-to` header
+#### Header `discusiones en` 
 
-While an YIP is in WIP or Proposed status, a `discussions-to` header will indicate the URL at [gov.yearn.finance](https://gov.yearn.finance/) where the YIP is being discussed.
+Mientras que una YIP esté en estado WIP o propuesta, un header `discusiones en` indicará la dirección de URL en [gov.yearn.finance](https://gov.yearn.finance/) donde la discusión sobre la YIP está teniendo lugar.
 
-#### `created` header
+#### Header `creada`
 
-The `created` header records the date that the YIP was assigned a number. Both headers should be in yyyy-mm-dd format, e.g. 2001-08-14.
+El header `creada` guarda la fecha en la que se le asignó un número a la YIP. Ambos headers deben usar el formato yyyy-mm-dd, por ejemplo 2001-08-14.
 
-#### `updated` header
 
-The `updated` header records the date(s) when the YIP was updated with "substantial" changes. This header is only valid for YIPs of Draft and Active status.
+#### Header `actualizada` 
 
-#### `requires` header
+El header `actualizada` guarda la(s) fecha(s) cuando la YIP fue actualizada con cambios "sustanciales". Este header es válido únicamente para YIPs con estado de borrador o activa.
 
-YIPs may have a `requires` header, indicating the YIP numbers that this YIP depends on.
+#### Header `requiere`
 
-## Auxiliary Files
+Las YIPs pueden tener un header `requiere`, indicando el número de las YIPs de la que esta depende.
+
+## Archivos auxiliares 
 
 YIPs may include auxiliary files such as diagrams. Such files must be named YIP-XXXX-Y.ext, where “XXXX” is the YIP number, “Y” is a serial number (starting at 1), and “ext” is replaced by the actual file extension (e.g. “png”).
 
