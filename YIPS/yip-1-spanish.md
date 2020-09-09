@@ -1,32 +1,32 @@
 ---
 YIP: 1
-Título: Minting more YFI
-status: Implemented
-author: Andre Cronje (@andrecronje)
-discussions-to: https://gov.yearn.finance/t/proposal-0-yfi-supply/24
-created: 2020-07-19
+Título: Crear más YFI
+Estado: Implementada
+Autor: Andre Cronje (@andrecronje)
+Discusiones: https://gov.yearn.finance/t/proposal-0-yfi-supply/24
+Fecha de creación: 2020-07-19
 ---
 
-## Simple Summary
+## Explicación corta
 
-**FOR**: Allows weekly distribution of YFI. A second proposal will be submitted to decide how much would be printed weekly.
+**A FAVOR**: Permitir la distribución semanal de YFI. Una segunda propuesta será presentada para decidir cuánto YFI se creará semanalmente.
 
-**AGAINST**: No more YFI tokens will be distributed. Global supply is locked at 30000 YFI permanently.
+**EN CONTRA**: No más YFI serán distribuídos. La cantidad total de YFI será fijada en 30000 monedas permanentemente.
 
-*NOTE: This was proposal 0 on-chain.*
+*NOTA: Esta YIP era propuesta 0 on-chain.*
 
-## Metadata
+## Metadatos
 
-| Name                | Value                                      |
+| Nombre                | Valor                                      |
 |---------------------|--------------------------------------------|
-| Proposed by         | 0x473afAb58B2C5D4DbC5FAD5D236f6658AD84E83b |
-| Total for votes     | 7734007.4689 (61.02%)                      |
-| Total against votes | 4939315.7347 (38.97%)                      |
+| Propuesta por         | 0x473afAb58B2C5D4DbC5FAD5D236f6658AD84E83b |
+| Votos totales a favor     | 7734007.4689 (61.02%)                      |
+| Votos totales en contra | 4939315.7347 (38.97%)                      |
 | Quorum              | 62.68% ✔                                   |
-| Start block         | 10490942                                   |
-| End block           | 10508222                                   |
+| Bloque inicial         | 10490942                                   |
+| Bloque final           | 10508222                                   |
 
-Source: [yieldfarming.info YFI Governance Information](https://yieldfarming.info/yearn/vote/)
+Fuente: [yieldfarming.info YFI Governance Information](https://yieldfarming.info/yearn/vote/)
 
-## Copyright
-Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+## Derechos de autor
+Derechos de autor y derechos relacionados con renuncia a través de [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
