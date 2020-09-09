@@ -12,7 +12,7 @@ Fecha de actualización: 2020-09-03
 
 Una YIP es una propuesta de mejora de yEarn (yEarn Improvement Proposal en inglés) que ha sido adaptada de las SIP utilizadas por Synthetix. La finalidad de este proceso es asegurar que los cambios en yEarn son transparentes y democráticos. Una YIP es un documento que provee información a la comunidad de yEarn a cerca de un cambio propuesto que afecta al sistema. El autor de esta es el responsable de buscar el concenso y la aprobación de la comunidad, además de documentar los pros y contras presentados por los distintos miembros de la comunidad acerca del cambio propuesto.
 
-## Fundamentación de las YIPs
+## Fundamento de las YIPs
 
 Nosotros pretendemos que las YIPs sean el principal mecanismo mediante el cual se proponen mejoras, se analiza la posición de la comunidad frente a un problema y se documentan posibles cambios en yEarn. Como estas son almacenadas en archivos de texto en un repositorio, esta queda guardada para su revisión en un futuro.
 
@@ -129,11 +129,11 @@ Las YIPs pueden tener un header `requiere`, indicando el número de las YIPs de 
 
 ## Archivos auxiliares 
 
-YIPs may include auxiliary files such as diagrams. Such files must be named YIP-XXXX-Y.ext, where “XXXX” is the YIP number, “Y” is a serial number (starting at 1), and “ext” is replaced by the actual file extension (e.g. “png”).
+Las YIPs puede incluir archivos auxiliares tales como diagramas. Dichos archivos deben ser llamados YIP-XXXX-Y.ext, donde “XXXX” es el número de la YIP, “Y” es un número de serie (empieza en 1) y “ext” es la extensión del archivo (i.e. “png”).
 
-## YIP Editors
+## Editores  de las YIPs
 
-The current YIP editors are:
+Actualmente, los editores son:
 
 ` * Artem K (@banteg)`
 
@@ -145,39 +145,40 @@ The current YIP editors are:
 
 ` * Sunil Srivatsa (@alphastorm)`
 
-## YIP Editor Responsibilities
+## Responsabilidades de los editores de las YIPs
 
-For each new YIP that comes in, an editor does the following:
+Cada vez que se propone una nueva YIP, un editor hace lo siguiente:
 
-- Read the YIP to check if it is ready: sound and complete. The ideas must make technical sense, even if they don't seem likely to get to final status.
-- The title should accurately describe the content.
-- Check the YIP for language (spelling, grammar, sentence structure, etc.), markup (Github flavored Markdown), code style
+- Lee la YIP para comprobar que está lista, es decir, es sólida y está completa. Las ideas tienen que tener sentido tecnicamente hablando, incluso si no parece que vaya a llegar al estado final.
+- Comprueba que el título describa adecuadamente el contenido de la YIP.
+- Comprueba el lenguaje utilizado en la YIP (ortografía, gramática, estructura sintáctica, etc.), el markup (Github flavored Markdown) y el estilo del código.
 
-If the YIP isn't ready, the editor will send it back to the author for revision, with specific instructions.
+Si la YIP no estuviese lista, el editor la envía de vuelta al autor para su revisión, incluyendo instrucciones específicas.
 
-Once the YIP is ready for the repository, the YIP editor will:
+En cuanto la YIP está lista para el repositorio, el editor:
 
-- Assign an YIP number (generally the PR number or, if preferred by the author, the Issue # if there was discussion in the Issues section of this repository about this YIP)
 
-- Merge the corresponding pull request
+- Asigna un número a la YIP (generalmente el número del pull request o, si así lo quiere el autor, el número del issue si ha habido una discusión en la sección de issues de este repositorio a cerca de esta YIP).
 
-- Send a message back to the YIP author with the next step.
+- Fusionar el correspondiente pull request.
 
-The YIP editors monitor YIP changes, and correct any structure, grammar, spelling, or markup mistakes we see.
+- Comunicar al autor de la YIP cuál es el siguiente paso a seguir.
 
-The editors don't pass judgment on YIPs. We merely do the administrative & editorial part.
+Los editores monitorizan los cambios hechos a la YIP, corrijiendo errores en la estructura, gramática u ortografía de la YIP. 
 
-## History
+Los editores no juzgan el contenido de las YIPs, únicamente prestan un servicio administrativo y editorial.
 
-The YIP document was derived heavily from the SIP Synthetix Improvement Proposal document in many places text was simply copied and modified. Any comments about the YIP document should be directed to the YIP editors.
+## Historia
 
-### Bibliography
+El documento de las YIPs, en su mayoría, ha sido copiado y modificado inspirándose en la forma de las SIPs de Synthetix. Cualquier comentario a cerca del documento de las YIPs debe ser dirijido a los editores.
 
-[the unofficial yEarn Discord]: https://discord.com/invite/3AGgWxy
-[the unofficial yEarn Telegram]: https://t.me/yearnfinance
+### Bibliografía
+
+[el Discord de yEarn no oficial]: https://discord.com/invite/3AGgWxy
+[el canal de Telegram de yEarn no oficial]: https://t.me/yearnfinance
 [pull request]: https://github.com/iearn-finance/YIPS/pulls
 [markdown]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
-## Copyright
+## Derechos de autor
 
-Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+Derechos de autor y derechos relacionados con renuncia a través de [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
