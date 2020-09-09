@@ -1,32 +1,32 @@
 ---
-yip: 2
-title: Burn YFI for fees
-status: Rejected
-author: Andre Cronje (@andrecronje)
-discussions-to: https://gov.yearn.finance/t/proposal-1-yfi-fee-collection/25
-created: 2020-07-19
+YIP: 2
+Título: Burn YFI for fees
+Estado: Rejected
+Autor: Andre Cronje (@andrecronje)
+Discusiones: https://gov.yearn.finance/t/proposal-1-yfi-fee-collection/25
+Fecha de creación: 2020-07-19
 ---
 
-## Simple Summary
+## Explicación corta
 
-**FOR**: Will continue to with the current burn model.
+**A FAVOR**: Will continue to with the current burn model.
 
-**AGAINST**: Rewards will be claimed via a staking model instead.
+**EN CONTRA**: Rewards will be claimed via a staking model instead.
 
-*NOTE: This was proposal 1 on-chain.*
+*NOTA: Esta YIP era propuesta 1 on-chain.*
 
-## Metadata
+## Metadatos
 
-| Name                | Value                                      |
+| Nombre                | Valor                                      |
 |---------------------|--------------------------------------------|
-| Proposed by         | 0x473afAb58B2C5D4DbC5FAD5D236f6658AD84E83b |
-| Total for votes     | 502445.8576 (11.27%)                       |
-| Total against votes | 3953417.1244 (88.72%)                      |
+| Propuesta por         | 0x473afAb58B2C5D4DbC5FAD5D236f6658AD84E83b |
+| Votos totales a favor    | 502445.8576 (11.27%)                       |
+| Votos totales en contra | 3953417.1244 (88.72%)                      |
 | Quorum              | 22.03% 𐄂                                   |
-| Start block         | 10490942                                   |
-| End block           | 10508222                                   |
+| Bloque inicial         | 10490942                                   |
+| Bloque final           | 10508222                                   |
 
-Source: [yieldfarming.info YFI Governance Information](https://yieldfarming.info/yearn/vote/)
+Fuente: [yieldfarming.info YFI Governance Information](https://yieldfarming.info/yearn/vote/)
 
-## Copyright
-Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+## Derechos de autor
+Derechos de autor y derechos relacionados con renuncia a través de [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
