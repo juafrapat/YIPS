@@ -160,9 +160,9 @@ En cuanto la YIP está lista para el repositorio, el editor:
 
 - Asigna un número a la YIP (generalmente el número del pull request o, si así lo quiere el autor, el número del issue si ha habido una discusión en la sección de issues de este repositorio a cerca de esta YIP).
 
-- Fusionar el correspondiente pull request.
+- Fusiona el correspondiente pull request.
 
-- Comunicar al autor de la YIP cuál es el siguiente paso a seguir.
+- Comunica al autor de la YIP cuál es el siguiente paso a seguir.
 
 Los editores monitorizan los cambios hechos a la YIP, corrijiendo errores en la estructura, gramática u ortografía de la YIP. 
 
