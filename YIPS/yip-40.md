@@ -1,28 +1,28 @@
 ---
-yip: 40
-title: Replace inactive multisig signers
-status: Implemented
-author: cp287 (@illlefr4u), Artem K (@banteg)
-discussions-to: https://gov.yearn.finance/t/change-participants-of-the-multisig-wallet/2991
+YIP: 40
+Título: Replace inactive multisig signers
+Estado: Implemented
+Autor: cp287 (@illlefr4u), Artem K (@banteg)
+Discusiones: https://gov.yearn.finance/t/change-participants-of-the-multisig-wallet/2991
 
-created: 2020-08-24
+Fecha de creación: 2020-08-24
 ---
 
-## Summary
+## Explicación corta
 
 With more responsibilty for the multisig signers, four of the least active signers have decided to give up their slots for more engaged participants. This proposal replaces the four signers with new ones chosen based on activity and merit.
 
-## Abstract
+## Resumen
 
 Currently executing a multisig transaction can often take up to 24 hours. With Andre’s pace of work and a rapidly changing environment, this creates problems and an unnecessary time gap. Multisig participants must be responsible, but they must also be constantly inside the project and take the necessary actions for its rapid development.
 
-## Motivation
+## Motivación
 
 yEarn needs a multisig which will quickly implement the decisions made, while not violating the security of the funds under the wallet's control.
 
-## Specification
+## Especificación
 
-### Overview
+### Visión de futuro
 
 The following signers have given up their spots:
 - Michael (Curve.fi)
@@ -36,11 +36,11 @@ After careful consideration and voting, we suggest these four nominees:
 - Vasiliy Shapovalov (p2p.org)
 - Mariano Conti (ex-MakerDAO)
 
-### Rationale
+### Razonamiento
 
 We need a strong and responsive protocol multisig which can figure stuff out when some of the members are not immediately available. See also the dicussion links for activity stats and further rationale.
 
-### Technical Specification
+### Especificación técnica
 
 To execute the transition we don't need to change the threshold, just execute 8 sequential multisig transactions:
 
@@ -53,7 +53,7 @@ To execute the transition we don't need to change the threshold, just execute 8 
 7. Add 0x50B0C406a5C1fC492F84c3F3D4552391cF4672f2 (Substreight)
 8. Remove 0xa83838221278f22ee5bAe3E523f34D42b066D67D (Damir)
 
-## Discussion
+## Discusión
 
 https://gov.yearn.finance/t/change-participants-of-the-multisig-wallet/2991
 
