@@ -1,25 +1,25 @@
 ---
-yip: 41
-title: Temporarily Empower Multisig
-status: Implemented
-author: tracheopteryx (@tracheopteryx), Joe Mahon (@Substreight), franklin501 (@franklin501), Michael Anderson, Vance Spencer
-discussions-to: https://gov.yearn.finance/t/empower-the-multisig/2891
+YIP: 41
+Título: Temporarily Empower Multisig
+Estado: Implemented
+Autor: tracheopteryx (@tracheopteryx), Joe Mahon (@Substreight), franklin501 (@franklin501), Michael Anderson, Vance Spencer
+Discusiones: https://gov.yearn.finance/t/empower-the-multisig/2891
 
-created: 2020-08-24
+Fecha de creación: 2020-08-24
 ---
 
-## Summary
+## Explicación corta
 Temporarily empower the Multisig members to make basic, limited operational decisions including budgetary expenditures, protocol grants, and hiring for six months, as we prepare a more robust governance architecture.
 
-## Abstract
+## Resumen
 The proposed change would allow Multisig members to make personnel & budgetary decisions for no more than six (6) months. Any budget is to be proposed to governance for approval. This change would allow operational decisions to be made at a rapid pace for the next six (6) months. During this six-month term, the Multisig will be responsible for facilitating the creation and transition to a multi-DAO structure. These powers, as well as members of the Multisig, can be removed or modified by governance at any time.
 
-## Motivation
+## Motivación
 In this nascent stage of Yearn's lifetime, it is crucial to make rapid decisions in order to establish a strong foundation. Structure and support needs to be quickly built around Andre’s development speed in order to ensure the success of the protocol. This proposal formalizes administrative roles that will serve as a foundation for the protocol’s transition to a multi-DAO structure in the near term. 
 
-## Specification
+## Especificación
 
-### Overview
+### Visión de futuro
 This proposal grants the Multisig operational authority on the following decisions for six (6) months from implementation: 
 - Determining and distributing protocol grants.
 - Determining and distributing community grants.
@@ -39,7 +39,7 @@ This proposal does not grant the Multisig:
 - The power to ignore or hinder any approved YIPs or the governance process in general.
 - The power to create a legal entity.
 
-### Rationale
+### Razonamiento fundamental
 Forum Poll (202 votes)
 - 78% “Yes, empower the Multisig”
 - 22% “No, find a better solution”
@@ -49,14 +49,14 @@ Important objections raised in the forum poll argued against moving to a foundat
 - A deeper discussion about decentralization, governance, and the urgency for this YIP to pass can be found in this thread: [Understanding Decentralization & Prioritizing an Operations Team](https://gov.yearn.finance/t/understanding-decentralization-prioritizing-an-operations-team/3396).
 - Clearer limitations on the multisig’s authority detailed above to be controlled via smart contract.
 
-### Technical Specification
+### Especificación técnica
 
-**For:** Empower the Multisig for six (6) months.
+**A FAVOR:** Empower the Multisig for six (6) months.
 
-**Against:** No changes.
+**EN CONTRA:** No changes.
 
-### Proposed Budget
+### Presupuesto propuesto
 ![Budget](assets/yip-41-budget.png)
 
-## Copyright
-Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+## Derechos de autor
+Derechos de autor y derechos relacionados con renuncia a través de [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
