@@ -36,7 +36,7 @@ Crear un calendario de inflación después de la aprobación de la YIP-0.
 
 ### Razonamiento fundamental
 
-* El rendimiento de los proveedores de liquidez se mantienen a niveles razonadamente competitivos en varios escenarios del precio de YFI y el valor total depositado en el protocolo (ver la hoja del modelo).
+* El rendimiento de los proveedores de liquidez se mantiene a niveles razonadamente competitivos en varios escenarios del precio de YFI y el valor total depositado en el protocolo (ver la hoja del modelo).
 * Menor inflación inicial (22%) para mantener las recompensas a largo plazo dentro de unos límites razonables.
 * 8 años de emisión programada para incentivar el desarrollo a largo plazo.
 
