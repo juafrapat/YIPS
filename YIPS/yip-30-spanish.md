@@ -32,7 +32,7 @@ Crear un calendario de inflación después de la aprobación de la YIP-0.
   - Multiplicador reductor semanal de emisiones: 0.9937
   - Semana en la que empieza la inflación final: 416 weeks
   - Porcentaje fijo de inflación final (cola de emisión): 1%
-2. Este modelo permanecerá inalterado hasta que acabe o sea ajustado.
+2. Este modelo permanecerá inalterado hasta que acabe la emisión o se haga un ajuste.
 
 ### Razonamiento fundamental
 
