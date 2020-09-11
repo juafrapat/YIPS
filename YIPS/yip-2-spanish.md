@@ -1,7 +1,7 @@
 ---
 YIP: 2
-Título: Burn YFI for fees
-Estado: Rejected
+Título: Quemar YFI por tarifas	
+Estado: Rechazada
 Autor: Andre Cronje (@andrecronje)
 Discusiones: https://gov.yearn.finance/t/proposal-1-yfi-fee-collection/25
 Fecha de creación: 2020-07-19
@@ -9,9 +9,9 @@ Fecha de creación: 2020-07-19
 
 ## Explicación corta
 
-**A FAVOR**: Will continue to with the current burn model.
+**A FAVOR**: Se continuará usando el modelo de quemado actual.
 
-**EN CONTRA**: Rewards will be claimed via a staking model instead.
+**EN CONTRA**: Las recompensas serán reclamadas usando un modelo de staking.
 
 *NOTA: Esta YIP era propuesta 1 on-chain.*
 
