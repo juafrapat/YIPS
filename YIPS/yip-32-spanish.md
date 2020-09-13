@@ -12,7 +12,7 @@ Fecha de creación: 2020-08-01
 Eliminar el sistema de quemado de YFI del protocolo.
 
 ## Resumen
-YFI representa una reclamación de las tarifas puestas en el procolo de yEarn. Para poder reclamar estas tarifas, YFI debe ser quemado o estar depositado en la piscina de gobernanza.
+YFI representa una reclamación de las tarifas recolectadas por el protocolo de yEarn. Para poder reclamar estas tarifas, YFI debe ser quemado o estar depositado en la piscina de gobernanza.
 
 En esta YIP se decidirá si se continúa o no con el sistema de quemado de YFI actual.
 
