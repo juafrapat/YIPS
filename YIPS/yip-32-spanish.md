@@ -1,26 +1,28 @@
 ---
 YIP: 32
-Título: Remove YFI burning
-Estado: Implemented
+Título: Eliminar el sistema de quemado de YFI
+Estado: Implementada
 Autor: Sunil Srivatsa (@alphastorm)
 Discusiones: https://gov.yearn.finance/t/yip-32-remove-yfi-burning/1907
 Fecha de creación: 2020-08-01
 ---
 
 ## Explicación corta
-Remove YFI burning from the protocol.
+
+Eliminar el sistema de quemado de YFI del protocolo.
 
 ## Resumen
-YFI represents a claim on yEarn protocol fees. To claim fees, YFI can either be burned or staked in the governance pool.
+YFI representa una reclamación de las tarifas puestas en el procolo de yEarn. Para poder reclamar estas tarifas, YFI debe ser quemado o estar depositado en la piscina de gobernanza.
 
-This YIP is to decide whether or not to keep the burning mechanism.
+En esta YIP se decidirá si se continúa o no con el sistema de quemado de YFI actual.
 
 ## Motivación
-It makes no sense to burn because the price of YFI will always be higher than the claimable fee value. This is because YFI represents current assets in the fee pool plus future expected cashflows. Staking is just obviously better.
 
-**A FAVOR**: Remove YFI burning from the protocol.
+No tiene sentido quemar YFI porque su precio será siempre mayor que la cantidad de tarifas que se pueden reclamar. Esto se debe a que YFI representa los activos que actualmente están en la piscina de tarifas más los flujos de efectivo esperados en el futuro. Depositar en la piscina de goberanza es, por tanto, una opción mejor.
 
-**EN CONTRA**: No change (start burning YFI for fees).
+**A FAVOR**: Eliminar el sistema de quemado de YFI del protocolo.
+
+**EN CONTRA**: Ningún cambio (empezar a quemar YFI para reclamar tarifas).
 
 ## Metadatos
 
