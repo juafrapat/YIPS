@@ -33,7 +33,7 @@ Usar el YFI obtenido de la inflación para financiar el desarrollo es un mecanis
 
 ### Razonamiento fundamental
 
-Una parte de los tokens YFI deben ser reservados para asegurar y mejorar el ecosistema de yEarn, además de incentivar las piscinas de liquidez. Empezar con una distribución 50% // 50% dividada entre los proveedores de liquidez y la Mutisig permite una financiación adecuada para ambas partes interesadas y al mismo tiempo conservar la flexibilidad para ajustar la distribución si es necesario.
+Una parte de los tokens YFI deben ser reservados para asegurar y mejorar el ecosistema de yEarn, además de incentivar las piscinas de liquidez. Empezar con una distribución 50% // 50% dividida entre los proveedores de liquidez y la Mutisig permite una financiación adecuada para ambas partes interesadas y al mismo tiempo conservar la flexibilidad para ajustar la distribución si es necesario.
 
 Referencia
 * Calendario de inflación propuesto [YIP-30](https://github.com/iearn-finance/YIPS/blob/master/YIPS/yip-30.md)
