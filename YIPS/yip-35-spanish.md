@@ -16,7 +16,7 @@ Permitir a los donantes que donaron reclamar sus donaciones o desistir de ellas 
 
 Aunque aprecio mucho las donaciones, el [artículo](https://decrypt.co/37995/exclusive-yfi-andre-cronje-broke-quitting-defi) fue una burda malinterpretación de nuestra discusión. No estoy en un apuro financiero, tengo deudas, pero tengo activos en criptomonedas para compensar mi deuda en fiat. Simplemente no estoy interesado en cambiar mis criptomonedas a fiat, ya que valoro más mi cripto que la fiat.
 
-Como tal, propongo un pequeño sistema, mediante el cual los donantes pueden reclamar sus donaciones, si así lo quieren. Sin embargo, si no lo reclaman antes de una fecha x, entonces los fondos (actualmente \ $ 150,000) se usarán para comprar YFI diractamente en el mercado. Deseo utilizar este YFI para participar en la gobernanza y también podemos utilizarlo para incentivar otros eventos o requisitos.
+Como tal, propongo un pequeño sistema, mediante el cual los donantes pueden reclamar sus donaciones, si así lo quieren. Sin embargo, si no lo reclaman antes de una fecha x, entonces los fondos (actualmente \ $ 150,000) se usarán para comprar YFI directamente en el mercado. Deseo utilizar este YFI para participar en la gobernanza y también se podría utilizar para incentivar otros eventos o requisitos.
 
 ## Motivación
 
@@ -28,7 +28,7 @@ Después de haber hablado con los donantes, hay opiniones que van desde "úsalo 
 
 ## Especificación
 
-Yo mismo implementaré un contracto muy simple que permita a los donantes reclamar su donación, y en caso de que no lo deseen, después de una cierta fecha, el dinero será usado para comprar YFI que luego será depositado en el contrato de gobernanza.
+Yo mismo implementaré un contrato muy simple que permita a los donantes reclamar su donación, y en caso de que no lo deseen, después de una cierta fecha, el dinero será usado para comprar YFI que luego será depositado en el contrato de gobernanza.
 
 
 ## Metadatos
