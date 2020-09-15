@@ -31,7 +31,7 @@ Añadir SNX como una opción de aval en una yVault delegada permitirá a los pos
 
 ### Razonamiento fundamental
 
-Los stakers de Synthetix actualmente pagan regularmente costes de gas muy altos cuando reclaman sus recompensas de SNX semanalmente. Al añadir SNX a yVaults, poseedores de pequeñas cantidades de SNX podrán acumular sus recompensas de SNX o reclamarlas regularmente con bajos costes de gas. Este modelo inclusivo atraerá tanto a pequeños como grandes poseedores de SNX por igual, aumentado la cantidad de activos en el protocolo y los ingresos del mismo. A pesar de que otros tokens obtuvieron más votos en la cuenta, la estrategia para SNX ya ha sido desarrollada y su lanzamiento será más rápido.
+Los stakers de Synthetix actualmente pagan regularmente costes de gas muy altos cuando reclaman sus recompensas de SNX semanalmente. Al añadir SNX a yVaults, poseedores de pequeñas cantidades de SNX podrán acumular sus recompensas de SNX o reclamarlas regularmente con bajos costes de gas. Este modelo inclusivo atraerá tanto a pequeños como grandes poseedores de SNX por igual, aumentado la cantidad de activos en el protocolo y los ingresos del mismo. A pesar de que otros tokens obtuvieron más votos en la encuesta, la estrategia para SNX ya ha sido desarrollada y su lanzamiento será más rápido.
 
 ## Metadatos
 
