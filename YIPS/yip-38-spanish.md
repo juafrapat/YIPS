@@ -50,8 +50,9 @@ Además, esta propuesta ahorra tiempo ya que nos ahorramos la redacción de un c
 
 ### Razonamiento fundamental
 <!--This is where you explain the reasoning behind how you propose to solve the problem. Why did you propose to implement the change in this way, what were the considerations and trade-offs. The rationale fleshes out what motivated the design and why particular design decisions were made. It should describe alternate designs that were considered and related work. The rationale may also provide evidence of consensus within the community, and should discuss important objections or concerns raised during discussion.-->
-Taking into account current gas prices, the fact that people have to claim their $BAL themselves I argue that it is more reasonable to keep $BAL as operational capital for the team.
 
-**A FAVOR:** Keep $BAL for operational capital.
+Teniendo en cuenta el precio actual del gas y el hecho de que la gente va a tener que reclamar su $BAL ellos mismos, sostengo que es más razonable  conservar el $BAL como capital operativo para el equipo.
 
-**EN CONTRA:** Allow stakers to claim $BAL.
+**A FAVOR:** Conservar los tokens $BAL y asignarlos al capital operacional.
+
+**EN CONTRA:** Permitir a los stakers reclamar los tokens $BAL.
