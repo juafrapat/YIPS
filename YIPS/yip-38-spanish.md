@@ -19,11 +19,11 @@ Quedarse con los tokens $BAL obtenidos como parte del capital operacional en vez
 ## Resumen
 <!--A short (~200 word) description of the proposed change, the abstract should clearly describe the proposed change. This is what *will* be done if the SIP is implemented, not *why* it should be done or *how* it will be done. If the SIP proposes deploying a new contract, write, "we propose to deploy a new contract that will do x".-->
 
-Unos ~891 $BAL tokens (~18500$) fueron enviados a una de las antiguas pools de distribución. Esos tokens han sido confiscados y fueron depositados en la wallet de la multisig. Tenemos que decidir entre distribuirlos o quedarnoslos y usarlos como capital operacional.
+Unos ~891 $BAL tokens (~18500$) fueron enviados a una de las antiguas pools de distribución. Esos tokens han sido confiscados y fueron depositados en la wallet de la multisig. Tenemos que decidir entre distribuirlos o quedárnoslos y usarlos como capital operacional.
 
 ## Motivación
 <!--This is the problem statement. This is the *why* of the SIP. It should clearly explain *why* the current state of the protocol is inadequate.  It is critical that you explain *why* the change is needed, if the SIP proposes changing how something is calculated, you must address *why* the current calculation is innaccurate or wrong. This is not the place to describe how the SIP will address the issue!-->
-Dado que los tokens $BAL pertenecen a los stakers de BPT (balancer pool token) es esencial decidir que deberíamos hacer con estos tokens.
+Dado que los tokens $BAL pertenecen a los stakers de BPT (balancer pool token) es esencial decidir qué deberíamos hacer con estos tokens.
 
 Sin embargo, la cantidad de $BAL incautada es 3 veces menor que las ganancias generadas por el protocolo en una semana ($18k vs $60k). Por tanto, propongo que los tokens $BAL se queden en la wallet de la multisig y que cuenten como capital operativo, en vez de construir un contrato para que puedan ser reclamados - esta solución ahorra tiempo y gas.
 
@@ -43,7 +43,7 @@ El staker más grande recibiría aproximadamente el 31% del total de tokens $BAL
 
 https://explore.duneanalytics.com/embed/query/7901/visualization/15749?api_key=8AAmxEmXrkxj56sw0hjDtrVbMN7jZtmsZ6SmZfFo 
 
-A pesar de que pueda resultar una cantidad grande, hay un montón de pequeños stakers que recibirían menos de 8$.Teniendo en cuenta los precios del gas y el hecho de que la gente tenga que reclamar su $BAL ellos mismos, sostengo que es más razonable quedarnos con los tokens $BAL y usarlos como capital operativo para el protocolo.
+A pesar de que pueda parecer una cantidad grande, hay un montón de pequeños stakers que recibirían menos de 8$. Teniendo en cuenta los precios del gas y el hecho de que la gente tenga que reclamar su $BAL ellos mismos, sostengo que es más razonable quedarnos con los tokens $BAL y usarlos como capital operativo para el protocolo.
 
 Además, esta propuesta ahorra tiempo ya que nos ahorramos la redacción de un contrato de distribución personalizado.
 
