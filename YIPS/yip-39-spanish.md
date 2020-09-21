@@ -1,6 +1,6 @@
 ---
 YIP: 39
-Título: Añadir Curve sBTC Pool LP-Tokens a yVault
+Título: Añadir el token LP de la pool de sBTC de Curve a una yVault
 Estado: Implementada
 Autor: uhmpeps (@az)
 Discusiones: https://gov.yearn.finance/t/proposal-add-curve-sbtc-pool-lp-tokens-yvault/3251
