@@ -1,7 +1,7 @@
 ---
 YIP: 42
-Título: Add RenBTC to yVaults
-Estado: Rejected
+Título: Añadir RenBTC a yVaults	
+Estado: Rechazada 
 Autor: Azeem (@zu-ctrl)
 Discusiones: https://gov.yearn.finance/t/proposal-yrenbtc-delegated-vault/3470
 Implementación: https://github.com/zu-ctrl/yfi-str-pub/blob/master/StrategyCreamRENBTC.sol
@@ -11,22 +11,22 @@ Fecha de creación: 08/26/2020
 
 ## Explicación corta
 <!--"If you can't explain it simply, you don't understand it well enough." Simply describe the outcome the proposed changes intends to achieve. This should be non-technical and accessible to a casual community member.-->
-Add RenBTC as a volatile asset to be used as collateral in delegated yVaults.
+Añadir renBTC como un activo volátil para ser usado como aval en una yVault delegada.
 
 ## Resumen
 <!--A short (~200 word) description of the proposed change, the abstract should clearly describe the proposed change. This is what *will* be done if the SIP is implemented, not *why* it should be done or *how* it will be done. If the SIP proposes deploying a new contract, write, "we propose to deploy a new contract that will do x".-->
-
-Add RenBTC as a volatile asset to be used as collateral in delegated yVaults.
+Añadir renBTC como un activo volátil para ser usado como aval en una yVault delegada.
 
 ## Motivación
 <!--This is the problem statement. This is the *why* of the SIP. It should clearly explain *why* the current state of the protocol is inadequate.  It is critical that you explain *why* the change is needed, if the SIP proposes changing how something is calculated, you must address *why* the current calculation is innaccurate or wrong. This is not the place to describe how the SIP will address the issue!-->
-wBTC has pretty good growth rates as seen on DeFi Pulse but as a custodial solution is hampered by trust-based systems which BTC holders do not by and large feel comfortable with.
 
-RenBTC is a tokenized representation of BTC on the Ethereum blockchain. It is an ERC20, and backed 1:1 with real BTC locked in RenVM, a decentralized custodian. It is redeemable at any time for real BTC.
+wBTC tiene tasas de crecimiento bastante buenas como se puede ver en DeFi Pulse, pero como solución de custodia se ve obstaculizada por sistemas basados en la confianza con los que los titulares de BTC no se sienten cómodos en general.
 
-When Curve created an opportunity for RenBTC to generate returns, the RenVM TVL growth chart exploded. This is a clear signal that when the right solution is available, there is a LOT of BTC waiting on the sidelines to jump into farming yield on ETH. Let’s be there for them.
+RenBTC es una representación tokenizada de BTC en la blockchain de Ethereum. Es un ERC20 y está respaldado 1: 1 con BTC real custodiado en RenVM, un custodio descentralizado. Se puede canjear en cualquier momento por BTCs reales.
 
-Refer to thread with an overwhelming majority FOR the BTC strategic focus. This is a vote to approve the current Strategy Smart contract to go live and start generating returns for RenBTC depositors without forcing them to figure out Curve deposits. 
+Cuando Curve creó una oportunidad para que RenBTC generara retornos, el TVL de RenVM creció muy deprisa. Esta es una señal clara de que cuando la solución correcta está disponible, hay MUCHOS BTCs esperando para saltar y farmear en ETH. Estemos ahí para ellos.
+
+Consulte el hilo con una mayoría abrumadora A FAVOR del enfoque estratégico en BTC. Este es un voto para aprobar la estrategia actual, para que entre en funcionamiento y comience a generar retornos para los depositantes de RenBTC sin obligarlos a averiguar cómo funcionan los depósitos de Curve. 
 
 ## Especificación
 <!--The specification should describe the syntax and semantics of any new feature, there are five sections-->
