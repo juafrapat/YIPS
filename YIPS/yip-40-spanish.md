@@ -18,7 +18,7 @@ Actualmente, ejecutar una transacción que debe ser firmada por la multisig pued
 
 ## Motivación
 
-yEarn necesita una multisig que pueda implementar rápidamente las decisiones tomadas, sin poner en riesgo ni disminuir la seguridad de los fundos bajo el control de la wallet. 
+yEarn necesita una multisig que pueda implementar rápidamente las decisiones tomadas, sin poner en riesgo ni disminuir la seguridad de los fondos bajo el control de la wallet de la multisig. 
 
 ## Especificación
 
@@ -30,7 +30,7 @@ Los siguientes firmantes cenden sus puestos:
 - Calvin Liu
 - Damir Bandalo
 
-Después de una cuidadosa evaluación y votación, sugerimos los siguientes cuatro nominados:
+Después de una cuidadosa evaluación y votación, sugerimos los siguientes cuatro candidatos:
 - Joe Mahon (Substreight)
 - Tarun Chitra (Gauntlet)
 - Vasiliy Shapovalov (p2p.org)
