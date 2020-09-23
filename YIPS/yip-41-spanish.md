@@ -32,7 +32,7 @@ Esta propuesta otorga autoridad operativa a la Multisig sobre las siguientes dec
 - Identificación y ejecución de contrataciones clave que figuran en el presupuesto adjunto.
 - Identificación y participación de empresas de seguridad.
 - Identificación y participación de empresas analíticas.
-- Continar ejecutando los cambios de estrategias de las yVaults hasta que un equipo dedicado pueda hacerse cargo.
+- Continuar ejecutando los cambios de estrategias de las yVaults hasta que un equipo dedicado pueda hacerse cargo.
 - Facilitar el desarrollo de una interfaz de usuario y front-end.
 - Facilitar el desarrollo y la integración empresarial.
 
