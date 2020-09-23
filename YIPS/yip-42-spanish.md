@@ -1,6 +1,6 @@
 ---
 YIP: 42
-Título: Añadir RenBTC a yVaults	
+Título: Añadir renBTC a yVaults	
 Estado: Rechazada 
 Autor: Azeem (@zu-ctrl)
 Discusiones: https://gov.yearn.finance/t/proposal-yrenbtc-delegated-vault/3470
@@ -30,15 +30,16 @@ Consulte el hilo con una mayoría abrumadora A FAVOR del enfoque estratégico en
 
 ## Especificación
 <!--The specification should describe the syntax and semantics of any new feature, there are five sections-->
-The strategy linked to above models the current yYFI yVault strategy of farming CREAM and generating returns in more CREAM. We will require a new row in the yVault to accept RenBTC deposits. 
 
-> Strategy 1:
-* Add a new Vault row in Table for yRenBTC Vault
-* User deposits RenBTC start farming CREAM the same way as yYFI Vault, and deliver returns for depositors as RenBTC.
+La estrategia propuesta para los modelos anteriores es la estrategia actual de la Vault de YFI la cual farmea CREAM y compra más YFI vendiendo CREAM. Necesitaremos una nueva Vault que acepte depósitos de RenBTC.
 
-**A FAVOR:** Yes! Add yRenBTC Vault Strategy 1 - StrategyCreamRENBTC
+> Estrategia 1:
+* Agregar una nueva Vault que acepte RenBTC 
+* Los usuarios depositan RenBTC, comienzan a farmear CREAM  y se devuelven las ganancias a los depositantes como renBTC, siguiendo la misma estrategia de la Vault de YFI.
 
-**EN CONTRA:** No change.
+**A FAVOR:** Añadir una nueva Vault de renBTC e implementar la Estrategia 1 - StrategyCreamRENBTC.
+
+**EN CONTRA:** Sin cambios.
 
 ## Derechos de autor
 Derechos de autor y derechos relacionados con renuncia a través de [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
