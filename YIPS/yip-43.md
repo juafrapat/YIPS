@@ -1,7 +1,7 @@
 ---
 YIP: 43
-Título: Improve YIP categories
-Estado: Rejected
+Título: Mejorar las categorías de las YIPs	
+Estado: Rechazada
 Autor: sam bacha <sam@freighttrust.com>
 Discusiones: https://gov.yearn.finance/t/proposal-add-new-statuses-to-yip-proposals-non-protocol-change/3608
 
@@ -12,55 +12,52 @@ Fecha de creación: 2020-08-24
 ## Explicación corta
 <!--"If you can't explain it simply, you don't understand it well enough." Simply describe the outcome the proposed changes intends to achieve. This should be non-technical and accessible to a casual community member.-->
 
-Add new `status`(s) to `YIPs` so that author(s) may better manage their `YIPs` in the context of community collaboration and so that governance is given the proper procedures to foster community cooperation.
+Añadir nuevos `estado`(s) a las `YIPs` para que el(los) autor(es) pueda(n) gestionar mejor las `YIPs` en el contexto de la colaboración comunitaria y para que la gobernanza cuente con procedimientos adecuados para fomentar la cooperación comunitaria.
 
 ## Resumen
 <!--A short (~200 word) description of the proposed change, the abstract should clearly describe the proposed change. This is what *will* be done if the YIP is implemented, not *why* it should be done or *how* it will be done. If the YIP proposes deploying a new contract, write, "we propose to deploy a new contract that will do x".-->
 
+Esta propuesta *solo* agregará al estado actual de las `YIPs propuestas` en el sentido de que solo cambia los _potenciales_`estados` disponibles para una `YIP`. No supone ningún cambio en el `protocolo`: solo afecta a la documentación y los procedimientos de gobernanza (únicamente aquellos off-chain).
 
-This will *only* add to the current state of `proposal YIPs` in that it only changes the _potential_ `statuses` available of a `YIP`. It does not add any `protocol` changes: only documentation and governance procedures (off chain only).
+Propongo los siguientes cambios para reflejar un nuevo estado de las posibles 'YIPs':
 
-I proposal the following changes to reflect a new state of possible 'YIPs':
-
-1. Modifying YIP Templates
-2. Modifying YIP Validator Gemfile
-3. Modifying YIP README file
-
+1. Modificación de la plantilla de la YIP
+2. Modificación del validador de Gemfile de la YIP
+3. Modificación del archivo README de la YIP
 
 ## Motivación
 <!--This is the problem statement. This is the *why* of the YIP. It should clearly explain *why* the current state of the protocol is inadequate.  It is critical that you explain *why* the change is needed, if the YIP proposes changing how something is calculated, you must address *why* the current calculation is inaccurate or wrong. This is not the place to describe how the YIP will address the issue!-->
-> The current state of procedures for `YIPS` is inadequate as it unnecessarily limits the possible outcomes of a proposed `YIP` while not affording both the author(s) nor the governance council flexibility in being able to deal with community driven `YIPs`
 
-This is a *documentation* and *procedure* change. In fact there is no explicit description for proposing such changes in governance *(that I could find).*
+ > El estado actual de los procedimientos para las `YIPS` es inadecuado, ya que limita innecesariamente los posibles resultados de una `YIP` propuesta, mientras que no brinda ni al autor(es) ni al consejo de gobernanza flexibilidad para poder tratar con las `YIPs` propuestas por la comunidad
 
-This change is needed as it better explains the *intent* of the YIP format to author(s). It also provides for governance additional functionality in their procedures so as to not potentially 'alienate' author(s) by rejecting a YIP when it could have been withdrawn. This ensures that also the author(s) are active in the process of their submitted proposal and in the larger community (in so far as they are knowledgable about other potentially competing YIPS.)
+Este es un cambio de *documentación* y *procedimiento*. De hecho, no hay una descripción explícita para proponer tales cambios en la gobernanza *(que pueda encontrar).*
+
+Este cambio es necesario ya que explica mejor la *intención* del formato de la YIP a el(los) autor(es). También proporciona funcionalidad adicional de gobernanza en sus procedimientos a fin de no 'alienar' potencialmente a el(los) autor(es) al rechazar una YIP cuando podría haber sido retirada. Esto asegura que también el(los) autor(es) participa(n) activamente en el proceso de su propuesta presentada y en la comunidad en general (en la medida en que estén al tanto de otras YIPs con las que pueden competir).
 
 ## Especificación
 
-*Additions in 'BOLD'*
+*Cambios en 'NEGRITA'*
 
-Proposed - a YIP that is ready to be reviewed in a governance call.
-Approved - a YIP that has been accepted for implementation by the yEarn community.
-Implemented - a YIP that has been released to mainnet.
-Rejected - a YIP that has been rejected.
-**Withdrawn - a YIP that has been withdrawn by the author(s).**
-**Deferred - a YIP that governance has decided to wait for another YIP/some other change that should be bundled with it together**
-**Moribund - a YIP that was once Implemented. It is now Obsolete 'AND' requires no explicit replacement.**
+Propuesta - una YIP que está lista para ser revisada en una llamada de gobernanza
+Aprobada - una YIP que ha sido aceptada para su implementación por la comunidad de yEarn.
+Implementada - una YIP que ya está en mainnet.
+Rechazada - una YIP que ha sido rechazada.
+**Retirada - una YIP que ha sido retirada por su(s) autor(es).**
+**Diferida - una YIP que la gobernanza ha decidido poner en pausa hasta que otra YIP u otro cambio con la que debería ir en conjunto sea propuesto.**
+**Moribunda - una YIP que hace tiempo fue implentada. Este ha quedado obsoleta 'Y' no requiere ninguna sustitución explícita.** 
 
-The "Withdrawn" status is similar - it means that the YIP author has decided that the YIP is actually a 'bad' idea, or has accepted that a competing proposal is a better alternative.
-
+El estado "Retirada" es similar: significa que el autor de la YIP ha decidido que la YIP es en realidad una "mala" idea, o ha aceptado que otra propuesta contra la que compite es una mejor alternativa.
 
 ### Esquema de trabajo propuesto
 ```
-Proposed -> Approved -> Implemented
+Propuesta -> Aprobada -> Implementada
   ^                     |
-  +----> Rejected       +----> Moribund
+  +----> Rechazada      +----> Moribunda 
   |
-  +----> Withdrawn
+  +----> Retirada
   v
-Deferred
+Diferida
 ```
-
 
 #### Nuevos estados para las YIPs
 
