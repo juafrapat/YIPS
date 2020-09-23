@@ -20,9 +20,9 @@ Añadir renBTC como un activo volátil para ser usado como aval en una yVault de
 ## Motivación
 <!--This is the problem statement. This is the *why* of the SIP. It should clearly explain *why* the current state of the protocol is inadequate.  It is critical that you explain *why* the change is needed, if the SIP proposes changing how something is calculated, you must address *why* the current calculation is innaccurate or wrong. This is not the place to describe how the SIP will address the issue!-->
 
-wBTC tiene tasas de crecimiento bastante buenas como se puede ver en DeFi Pulse, pero como solución de custodia se ve obstaculizada por sistemas basados en la confianza con los que los titulares de BTC no se sienten cómodos en general.
+wBTC tiene tasas de crecimiento bastante buenas como se puede ver en DeFi Pulse, pero como solución de custodia se ve obstaculizada por sistemas basados en la confianza con los que los holders de BTC no se sienten cómodos en general.
 
-RenBTC es una representación tokenizada de BTC en la blockchain de Ethereum. Es un ERC20 y está respaldado 1: 1 con BTC real custodiado en RenVM, un custodio descentralizado. Se puede canjear en cualquier momento por BTCs reales.
+RenBTC es una representación tokemizada de BTC en la blockchain de Ethereum. Es un ERC20 y está respaldado 1: 1 con BTC real custodiado en RenVM, un custodio descentralizado. Se puede canjear en cualquier momento por BTCs reales.
 
 Cuando Curve creó una oportunidad para que RenBTC generara retornos, el TVL de RenVM creció muy deprisa. Esta es una señal clara de que cuando la solución correcta está disponible, hay MUCHOS BTCs esperando para saltar y farmear en ETH. Estemos ahí para ellos.
 
