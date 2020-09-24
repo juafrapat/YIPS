@@ -96,7 +96,6 @@ La implementación técnica requiere:
 #### Cambios en el archivo plantilla `.md` 
 
 Más abajo hay un archivo de muestra `.yaml` que ilustra el _nuevo_ header que debería ser usado en la plantilla `yip-template.md`
-Below is a sample `.yaml` file to illustrate the _new_ header that should be used in the `yip-template.md` file
 
 ```yaml
 ---
