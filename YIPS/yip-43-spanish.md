@@ -106,11 +106,11 @@ Tipo: <Informativo | Seguimiento de Estándares>
 Estado: <WIP | Propuesta | Aprobada | Diferida | Retirada | Rechazada |
            Implementada | Reemplazada | Moribunda>
     Versión: <mayor>[.<menor>]
-    Fecha de creación: <Creada en, en formato ISO 8601 (yyyy-mm-dd)>
+    Fecha de creación: <Creada en: , usando el formato ISO 8601 (yyyy-mm-dd)>
     Requiere (*opcional): <Número(s) de la(s) YIP(s)>
     Implementación (*opcional): <Añadir si la YIP ha sido aceptada>
 
-Discusiones: <Crear un hilo en https://gov.yearn.finance/ y pon el link aquí>
+Discusiones: <Crea un hilo en https://gov.yearn.finance/ y pon el link aquí>
 
 * Requiere: <números de las YIPs>
 * Reemplaza: <Números de las YIPs>
