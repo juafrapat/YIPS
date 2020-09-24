@@ -61,68 +61,68 @@ Diferida
 
 #### Nuevos estados para las YIPs
 
-> To be added are the following
+> Aquellos que van a ser añadidos son:
 
-- Withdrawn
-- Moribund
-- Deferred
-
+-Retirada
+-Moribunda
+-Diferida
 
 ### Visión de conjunto
 <!--This is a high level overview of *how* the YIP will solve the problem. The overview should clearly describe how the new feature will be implemented.-->
 
 #### Nuevos estados para las YIPs
-- Withdrawn
-Means that the YIP author has decided that the YIP is actually a bad idea, or has accepted that a competing proposal is a better alternative.
-- Moribund
-Obsolete and requires no explicit replacement, it SHOULD be marked "Moribund"
-- Deferred
-Governance placed status upon a YIP that means that they would like to know more information, or that they would like to see if the author(s) can work with another proposed YIP and combine it into a single YIP, etc.
 
+- Retirada
+Esto significa que el autor de la YIP ha decidido que la YIP es en realidad una "mala" idea, o ha aceptado que otra propuesta contra la que compite es una mejor alternativa.
+- Moribunda
+Aquella YIP que ha quedado obsoleta y no quiere un reemplazo explícito debería ser marcada como "Moribunda"
+- Diferida
+En caso de que la gobernanza le otorge este estado a una YIP, lo que significa es que les gustaría tener más información, o que les gustaría ver si los autores pueden trabajar con otra YIP propuesta y combinarla en una sola YIP, etc.
 
 ### Razón fundamental
 
-The reasoning behind this is that it is unclear what will happen to a YIP should material facts change during its initial formal proposal and when its actually voted on by governance. Changes may be introduced between then, and the author may want to withdraw the proposal. This also frees up the governance council in that they are no longer obligated to reject every single YIP that may no longer be relevant, instead sharing the responsibility with the actual author(s). 
+El razonamiento detrás de esta propuesta es que no está claro qué pasará con un YIP si los hechos materiales cambian entre su propuesta formal inicial y cuando llega la hora de ser votada por la gobernanza. Se pueden introducir cambios entre su propuesta inicial y cuando se vota por ella, o el autor puede querer retirar la propuesta antes de que llegue a ser votada. Esto también libera al consejo de gobernanza en el sentido de que ya no estaría obligado a rechazar cada YIP que puede que ya no sea relevante, sino que comparte la responsabilidad con el(los) autor(es) de la YIP.
+ 
 
 ### Especificación técnica
 <!--
 NOTE: NO PROTOCOL CHANGES ARE PROPOSED 
 THE ONLY TECHNICAL CHANGES ARE IN THE RUBY VALIDATION PROCESS FOR YIPS
 -->
-Technical implementation involves:
-
-* changes in the validation Gemfile 
-* changes in the template `.md` file
+La implementación técnica requiere:
+* cambios en el validador Gemfile
+* cambios en el archivo plantilla `.md`
 
 #### Cambios en el archivo plantilla `.md` 
 
+Más abajo hay un archivo de muestra `.yaml` que ilustra el _nuevo_ header que debería ser usado en la plantilla `yip-template.md`
 Below is a sample `.yaml` file to illustrate the _new_ header that should be used in the `yip-template.md` file
 
 ```yaml
 ---
-YIP: <YIP number>
-Title: <YIP title>
-Author: < firstName, lastName, @githubUsrName, contact@address.com >
-Type: <Informational | Standards Track>
-Status: <WIP | Proposed | Approved | Deferred | Withdrawn | Rejected |
-           Implemented | Replaced | Moribund>
-    Version: <major>[.<minor>]
-    Created: <date created on, in ISO 8601 (yyyy-mm-dd) format>
-    Requires (*optional): <YIP number(s)>
-    Implementation (*optional): <Added if YIP passes>
+YIP: <número de la YIP>
+Título: <título de la YIP>
+Autor: < Nombre, Apellido, @githubUsrName, contacto@dirección.com >
+Tipo: <Informativo | Seguimiento de Estándares>
+Estado: <WIP | Propuesta | Aprobada | Diferida | Retirada | Rechazada |
+           Implementada | Reemplazada | Moribunda>
+    Versión: <mayor>[.<menor>]
+    Fecha de creación: <Creada en, en formato ISO 8601 (yyyy-mm-dd)>
+    Requiere (*opcional): <Número(s) de la(s) YIP(s)>
+    Implementación (*opcional): <Añadir si la YIP ha sido aceptada>
 
-Discussions-to: <Create a new thread on https://gov.yearn.finance/ and drop the link here>
+Discusiones: <Crear un hilo en https://gov.yearn.finance/ y pon el link aquí>
 
-* Requires: <YIP numbers>
-* Replaces: <YIP numbers>
-* Replaced-By: <YIP number>
+* Requiere: <números de las YIPs>
+* Reemplaza: <Números de las YIPs>
+* Reemplaza por: <Número de la YIP>
 ---
 ```
 
 #### Validador YIP (Ruby Gem)
 
-> current version: `1.0.2`, should be bumped to `1.1.0`
-Changes located [github.com/iearn-finance/yip_validator/blob/master/lib/yip_validator/validator.rb#L25](https://github.com/iearn-finance/yip_validator/blob/master/lib/yip_validator/validator.rb#L25)
+> versión actual: `1.0.2`, debe ser actualizada a `1.1.0`
+Cambios disponibles en [github.com/iearn-finance/yip_validator/blob/master/lib/yip_validator/validator.rb#L25](https://github.com/iearn-finance/yip_validator/blob/master/lib/yip_validator/validator.rb#L25)
 
 ```ruby
     validates_inclusion_of :status, in: ['WIP', 'Proposed', 'Approved', 'Implemented', 'Rejected']
@@ -131,11 +131,11 @@ Changes located [github.com/iearn-finance/yip_validator/blob/master/lib/yip_vali
     validates_inclusion_of :status, in: ['WIP', 'Proposed', 'Approved', 'Implemented', 'Rejected', 'Withdrawn', 'Deferred', 'Moribund']
 ```
 
-See Files Changed here [https://github.com/sambacha/yip_validator/tree/YIP-Proposed](https://github.com/sambacha/yip_validator/tree/YIP-Proposed)
+Mira las archivos cambiados aquí [https://github.com/sambacha/yip_validator/tree/YIP-Proposed](https://github.com/sambacha/yip_validator/tree/YIP-Proposed)
 
 ### Casos de prueba
 
-See `travis-ci` logs for the `Rub Gem` update here [https://travis-ci.com/github/sambacha/yip_validator/builds/181226022](https://travis-ci.com/github/sambacha/yip_validator/builds/181226022)
+Mira los registros `travis-ci` para `Rub Gem` actualizados aquí [https://travis-ci.com/github/sambacha/yip_validator/builds/181226022](https://travis-ci.com/github/sambacha/yip_validator/builds/181226022)
 
 ```bash
 total:2, valid:2, invalid:0, errors:0
