@@ -13,7 +13,7 @@ Añadir una recompensa por proponer YIPs que acaban siendo implementadas
 
 ## Resumen
 
-Implementar una recompensa de $500 yCRV tokens por proponer una YIP que alcanza el estado de ‘Implementada’ pagada del tesoro del protocol.
+Implementar una recompensa de $500 yCRV tokens por proponer una YIP que alcanza el estado de ‘Implementada’ pagada del tesoro del protocolo.
 
 ## Motivación
 
