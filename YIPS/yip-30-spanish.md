@@ -30,7 +30,7 @@ Crear un calendario de inflación después de la aprobación de la YIP-0.
 1. Ajustar el calendario de inflación para seguir [[este modelo](https://docs.google.com/spreadsheets/d/1yomUGpAWR8svL9RXD-_vL2ArgQPGj1x2XPNKDEuZR9Q/edit?usp=sharing)].
   - Inflación anual inicial: 22.384%
   - Multiplicador reductor semanal de emisiones: 0.9937
-  - Semana en la que empieza la inflación final: 416 weeks
+  - Semana en la que empieza la inflación final: semana 416
   - Porcentaje fijo de inflación final (cola de emisión): 1%
 2. Este modelo permanecerá inalterado hasta que acabe la emisión o se haga un ajuste.
 
