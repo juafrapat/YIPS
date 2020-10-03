@@ -28,7 +28,7 @@ Con el actual estado del mercado, las recompensas generadas por el sistema son s
 
 ## Especificación
 
-El 100% de las recompensas generadas por el sistema serán dijidas al tesoro de la Multisig.
+El 100% de las recompensas generadas por el sistema serán dirijidas al tesoro de la Multisig.
 
 El tesoro debe mantener un colchón equivalente a 500.000 USD. El excedente será distribuido entre los stakers de YFI en el contrato de gobernanza.
 
