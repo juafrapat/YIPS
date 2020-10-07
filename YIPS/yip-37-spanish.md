@@ -19,7 +19,7 @@ Todos los tokens CRV obtenidos por StrategyYfii serán bloqueados para otorgar a
 
 ## Motivación
 
-yVault tiene actualmente 609,688 CRV con 1 año de adquisición linear de derechos. A partir del 28 de agosto de 2020, podemos aprovechar estas recompensas para aumentar los tokens CRV generados e incentivar en gran medida la entrada de capital en yEarn.
+yVault tiene actualmente 609,688 CRV con 1 año de adquisición lineal de derechos. A partir del 28 de agosto de 2020, podemos aprovechar estas recompensas para aumentar los tokens CRV generados e incentivar en gran medida la entrada de capital en yEarn.
 
 ## Especificación
 

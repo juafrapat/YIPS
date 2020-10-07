@@ -15,7 +15,7 @@ Para empezar, propongo capturar un 5% de todo el rendimiento generado a través 
 
 ## Resumen
 
-@andre.cronje ha hecho un trabajo increíble hasta ahora desarrollando el protocolo. Como comunidad, debemos apoyar sus esfuerzos. Para conseguir esto, propongo que se reserven el 5% de todos los rendimientos para usarlos en mejorar el protocolo. Cúal será el plan de uso o el límite de la reserva puede ser votado en una propuesta posterior.
+@andre.cronje ha hecho un trabajo increíble hasta ahora desarrollando el protocolo. Como comunidad, debemos apoyar sus esfuerzos. Para conseguir esto, propongo que se reserven el 5% de todos los rendimientos para usarlos en mejorar el protocolo. Cuál será el plan de uso o el límite de la reserva puede ser votado en una propuesta posterior.
 
 ## Motivación
 

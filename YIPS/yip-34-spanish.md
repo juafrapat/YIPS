@@ -20,7 +20,7 @@ Añadir Synthetix (SNX) como el segundo activo volátil para ser usado como aval
 Activos adicionales son necesarios para generar más ingresos para el protocolo y favorecer el crecimiento del ecosistema. Esta propuesta nomina a SNX como el segundo activo volátil que será usado como aval. Mientras que otros tokens han obtenido más votos en la encuesta, la estrategia para SNX ya ha sido desarrollada y estará disponible en un corto plazo de tiempo. 
 
 
-**A FAVOR**: Añadir Synthetix (SNX) como el segundo activo volátil a ser usado como aval in una yVault delegada.
+**A FAVOR**: Añadir Synthetix (SNX) como el segundo activo volátil a ser usado como aval ien una yVault delegada.
 
 
 **EN CONTRA**: No añadir SNX.

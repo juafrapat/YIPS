@@ -20,7 +20,7 @@ Yo voy a votar "A FAVOR" de la propuesta #0, ya que creo que continuar con los i
 
 Esta es una propuesta para reducir la tasa de emisión semanal de YFI para pasar a seguir un modelo igual que el de BTC. Dos meses son suficientes para educar a la comunidad y finalizar la distribución de YFI.
 
-**Pros del modelo de haviling similar al de Bitcoin:**
+**Pros del modelo de halvening similar al de Bitcoin:**
 
 1. Reducir a la mitad la distribución de YFI cada semana es bastante fácil de entender en la comunidad y es efectivo.
 2. Es fácil de hacer memes de YFI - "YFI es el Bitcoin en Defi" para propagarlos viralmente.

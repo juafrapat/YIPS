@@ -45,7 +45,7 @@ https://explore.duneanalytics.com/embed/query/7901/visualization/15749?api_key=8
 
 A pesar de que pueda parecer una cantidad grande, hay un montón de pequeños stakers que recibirían menos de 8$. Teniendo en cuenta los precios del gas y el hecho de que la gente tenga que reclamar su $BAL ellos mismos, sostengo que es más razonable quedarnos con los tokens $BAL y usarlos como capital operativo para el protocolo.
 
-Además, esta propuesta ahorra tiempo ya que nos ahorramos la redacción de un contrato de distribución personalizado.
+Además, esta propuesta ahorra tiempo ya que nos ahorramos la implementación de un contrato de distribución personalizado.
 
 
 ### Razonamiento fundamental

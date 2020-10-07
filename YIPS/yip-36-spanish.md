@@ -18,9 +18,9 @@ Cubrir los gastos operacionales sin necesidad de crear más YFI.
 
 ## Motivación
 
-La comunidad de YFI está trabajando con Delphi y Gauntlet para desarrollar un modelo económico y un calendario de inflación. Hasta que este proceso sea completado, el projecto necesitará fondos para cualquier gasto operacional incluyendo, pero no exclusivamente, auditorías de seguridad, costos de implementación, gastos de consultoría y compensaciones. 
+La comunidad de YFI está trabajando con Delphi y Gauntlet para desarrollar un modelo económico y un calendario de inflación. Hasta que este proceso sea completado, el proyecto necesitará fondos para cualquier gasto operacional incluyendo, pero no exclusivamente, auditorías de seguridad, costos de implementación, gastos de consultoría y compensaciones. 
 
-Con el actual estado del mercado, las recompensas generadas por el sistema son suficientes para cubrir estos gastos operacionales. Esta YIP propone que las recompensas generadas por el protocolo sean dirijadas a la Multisig en vez a la gobernanza. De esta forma, se pueden cubrir los gastos operacionales sin necesidad de crear más YFI.
+Con el actual estado del mercado, las recompensas generadas por el sistema son suficientes para cubrir estos gastos operacionales. Esta YIP propone que las recompensas generadas por el protocolo sean dirijadas a la Multisig en vez de a la gobernanza. De esta forma, se pueden cubrir los gastos operacionales sin necesidad de crear más YFI.
 
 **A FAVOR:** Usar las recompensas del protocolo para gastos operacionales almacenándolas en un tesoro de capacidad máxima \$500k. Cualquier excedente será distribuído entre los participantes en la gobernanza. 
 
