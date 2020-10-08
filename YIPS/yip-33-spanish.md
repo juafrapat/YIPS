@@ -26,7 +26,7 @@ Las yVaults delegadas fueron inaguradas con el lanzamiento de sólo USDC usado c
 
 ### Visión de conjunto
 
-Añadir LINK como una opción de aval en una yVault delegada permitirá los poseedores de LINK depositar tokens in la vault, lo cual incrementará el valor total bloqueado (TVL por sus siglas en inglés) y generar más ingresos para el protocolo.
+Añadir LINK como una opción de aval en una yVault delegada permitirá los poseedores de LINK depositar tokens en la vault, lo cual incrementará el valor total bloqueado (TVL por sus siglas en inglés) y generar más ingresos para el protocolo.
 
 ### Razonamiento fundamental
 

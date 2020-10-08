@@ -47,7 +47,7 @@ Cada cambio de estado es pedido por el autor de la YIP y revisado por los editor
 * **Implementada** -- Esta YIP ha sido implementada y desplegada en mainnet.
 * **Rechazada** -- Esta YIP ha fracasado en su intento de conseguir el conceso de la comunidad.
 * **Retirada** --  Esta YIP ha sido retirada por su autor o autores.
-* **Diferida** -- Esta YIP está pendiente de otra YIP o otro cambio con el que se debería incluir en conjunto.
+* **Diferida** -- Esta YIP está pendiente de otra YIP u otro cambio con el que se debería incluir en conjunto.
 * **Moribunda** -- Esta YIP ha sido implementada en el pasado pero ahora ha quedado obsoleta y no requiere un reemplazo explícito.
 
 ## ¿Qué forma una YIP exitosa?
@@ -57,7 +57,7 @@ Cada YIP debe de estar compuesta por las siguientes partes:
 - Preámbulo - RFC 822 style headers que contienen metadatos a cerca de la YIP, incluído el número de la YIP, un pequeño título descriptivo (limitado a 44 caracteres) y los datos del autor.
 - Explicación corta - “Si no puedes explicarlo con palabras sencillas, entonces es que no lo entiendes lo suficiente.” Proporcione una explicación simplificada y accesible para la gente del YIP.
 - Resumen - Una descripción corta (~200 palabras) del problema técnico que se está abordando.
-- Motivación (*opcional) - La motivación es una parte crítica para las YIPs que desean cambiar yEarn. Aquí se debe explicar claramente por qué la especificación existente es inadecuada para resolver el problema que la YIP resuelve. Las YIPs presentadas sin suficiente motivación puede ser rechazadas por completo.
+- Motivación (*opcional) - La motivación es una parte crítica para las YIPs que desean cambiar yEarn. Aquí se debe explicar claramente por qué la especificación existente es inadecuada para resolver el problema que la YIP resuelve. Las YIPs presentadas sin suficiente motivación pueden ser rechazadas por completo.
 - Especificación - La especificación técnica debe describir la sintaxis y semántica de cualquier característica nueva.
 - Razonamiento fundamental - El fundamento da cuerpo a la especificación al describir qué motivó el diseño y por qué se tomaron decisiones de diseño particulares. Debe describir los diseños alternativos que se consideraron y el trabajo relacionado. El razonamiento también debe proporcionar evidencia de consenso dentro de la comunidad y en él se debe discutir las objeciones o preocupaciones importantes que surjan durante la discusión.
 - Casos de prueba - se pueden agregar casos de prueba durante la fase de implementación, pero son necesarios antes de la implementación.

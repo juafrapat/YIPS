@@ -49,7 +49,7 @@ La ventaja del más ágil. Hay espacio suficiente para ganarnos la confianza de 
 [2]
 
 * Usar parte del poder de voto en el DAO de Curve para aumentar las recompensas de CRV para que los depositantes de BTC ganen alrededor de 50-70% APY, haciendo que sea muy atractivo para los holders de BTC
-* Asegurarse de que la yVault se publicita a las audiencias adecuadas como una alternativa viable a la posesión de una roca mascota no funcional que no tiene ningún otro propósito actualmente.
+* Asegurarse de que la yVault se publicita a las audiencias adecuadas como una alternativa viable a la posesión de una roca no funcional que no tiene ningún otro propósito actualmente.
 
 **A FAVOR:** Añadir una nueva Vault para la pool de sBTC de Curve.
 
